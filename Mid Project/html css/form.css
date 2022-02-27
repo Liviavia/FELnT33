@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #90e0ef, #caf0f8);
+    height: 300px;
+    animation-name: header_animation;
+    animation: header_animation 5s infinite;
+}
+
+@keyframes header_animation{
+    from {background-image: linear-gradient(to bottom right, #90e0ef, #caf0f8)}
+    to {background-image: linear-gradient(to bottom right, #caf0f8, #90e0ef)}
+}
+
+#header_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px; 
+    width: 800px;
+    height: 60px;  
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 370px;
+}
+
+#form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer{
+    background-image: linear-gradient(to bottom right, #90e0ef, #caf0f8);
+    height: 100px;
+    animation-name: header_animation;
+    animation: header_animation 5s infinite;
+}
+
+@keyframes header_animation{
+    from {background-image: linear-gradient(to bottom right, #90e0ef, #caf0f8)}
+    to {background-image: linear-gradient(to bottom right, #caf0f8, #90e0ef)}
+}
+
+#contactme_text{
+    display: flex;
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 30px;
+    height: 38px;
+    justify-content: center;
+}
+
+#logo_contactme{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#ig, #linkedin{
+    margin-top: 15px;
+    width: 60px;
+}
